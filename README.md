@@ -20,8 +20,8 @@ Using our Co-Clouds dataset, we train both conventional deep learning models and
 
 ## 📂 Contents
 
-- `Sedona_coincident_pair_mining/`: Coincident‑pair mining workflows for constructing Co‑Clouds using Apache Sedona
-- `Co-Clouds/`: Lists of PlanetScope and Landsat‑8 scene IDs used in the dataset
+- `Sedona_coincident_pair_mining/`: Coincident-pair mining workflows for constructing Co-Clouds, including Apache Sedona for large-scale distributed spatial joins and GeoPandas spatial joins for convenient execution on a single machine.
+- `Co-Clouds/`: Resources for constructing the Co-Clouds training dataset, including PlanetScope and Landsat-8 metadata download scripts, data preprocessing code, and lists of scene IDs used in the dataset.
 - `models/`: Training and testing code (SegFormer, UNet, etc.)
 👉 [**Model Weights**](https://drive.google.com/drive/folders/1hRVd4conSBaYoXl2iyaSBs-qZ0mXupp4?usp=sharing)
 
